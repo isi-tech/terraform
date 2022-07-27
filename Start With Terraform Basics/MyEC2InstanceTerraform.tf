@@ -1,4 +1,3 @@
-# Just a test
 provider "aws {
     access_key = "AKIAWGNNRZS3FXOO6A7O"
     secret_key = "SECRET_KEY_HERE"
