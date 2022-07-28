@@ -1,8 +1,8 @@
-provider "aws {
+provider "aws" {
     access_key = "AKIAWGNNRZS3FXOO6A7O"
     secret_key = "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"
     region     = "us-east-2"
-}"
+}
 
 resource "aws_instance" "MyTerrafEC2" {
   count         = 3
