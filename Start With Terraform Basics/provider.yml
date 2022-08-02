@@ -1,0 +1,14 @@
+## Provider's Example
+
+# Configure the AWS Provider
+provider "aws" {
+    version    = "4.22.0"
+    shared_credential_file = "/root/.aws/credentials"
+    region     = "us-east-2"
+}
+
+# Configure the Microsoft Azure Provider
+provider "azurerm" {
+    version = "3.15.0"
+    features {}
+}
