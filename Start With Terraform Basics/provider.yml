@@ -3,7 +3,7 @@
 # Configure the AWS Provider
 provider "aws" {
     version    = "4.22.0"
-    shared_credential_file = "/root/.aws/credentials"
+    shared_credentials_file = "/root/.aws/credentials"
     region     = "us-east-2"
 }
 
