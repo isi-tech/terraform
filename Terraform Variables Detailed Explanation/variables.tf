@@ -7,7 +7,7 @@ default = "us-east-2"
 }
 
 variable "Security_Group" {
-    type = "list"
+    type = list(string)
     default = ["sg-24076", "sg-90809", "TestSG", "sg-456789"]
   
 }
