@@ -5,4 +5,5 @@ resource "aws_instance" "MyVariableInstancesEC2" {
   tags = {
     Name = "demoinstnce"
   }
+  security_groups = "${var.Security_Group}"
 }
