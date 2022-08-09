@@ -5,5 +5,4 @@ resource "aws_instance" "MyTerrafEC2" {
   tags = {
     Name = "demoinstnce"
   }
-  security_groups = "${var.Security_Group}"
 }
